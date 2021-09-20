@@ -1,0 +1,29 @@
+#Region Project Attributes 
+	#MainFormWidth: 600
+	#MainFormHeight: 600 
+#End Region
+
+#Region Form Preperation
+'Template version 1.00
+Sub Process_Globals
+	Private fx As JFX
+	Private MainForm As Form
+	Private xui As XUI 'ignore
+	Private Button1 As Button
+	Dim Pay As Paystack
+End Sub
+
+
+Sub AppStart (Form1 As Form, Args() As String)
+	MainForm = Form1
+	MainForm.RootPane.LoadLayout("Main")
+	MainForm.Show
+	Pay.Initialize(Me,MainForm,"pk_test_83d0bdbb2262880d8b9786136a0c9941959c498d","sk_test_0fbd16b102d4d19e84636c8cc0ccebf6e989b46a")
+End Sub
+
+#End Region
+
+
+Private Sub Button1_Click
+	Pay.InitializeTransaction("obiriclaude@gmail.com", 1,"test-1234567890",Pay.CURRENCY_GHS)
+End Sub
