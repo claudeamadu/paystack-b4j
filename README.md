@@ -1,6 +1,6 @@
 ## Paystack B4J Library
 
-This is a library for easy integration of [Paystack](https://paystack.com) with your Android application with [B4J](https://www.b4x.com/b4j.html).
+This is a library for easy integration of [Paystack](https://paystack.com) with your Desktop application with [B4J](https://www.b4x.com/b4j.html).
 Use this library in your B4J project.
 
 ## Summarized flow
