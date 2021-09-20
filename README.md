@@ -49,7 +49,8 @@ Private Sub Button1_Click
 End Sub
 ```
 ## Demo
-Download/Clone [https://github.com/claudeamadu/paystack-b4j/tree/main/Demo](https://github.com/claudeamadu/paystack-b4j/tree/main/Demo)
+Download [https://github.com/claudeamadu/paystack-b4j/tree/main/Demo](https://github.com/claudeamadu/paystack-b4j/tree/main/Demo)
+![Demo Form](./form.jpg)
 
 ## Security
 
